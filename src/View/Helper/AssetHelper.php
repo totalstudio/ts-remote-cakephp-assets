@@ -30,7 +30,7 @@ class AssetHelper extends Helper
      * Helpers
      * @var array
      */
-    public $helpers = ['Html'];
+    protected array $helpers = ['Html'];
 
     /**
      * Gets the asset path
